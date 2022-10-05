@@ -1,5 +1,6 @@
 import { getAds } from "./ads-list-provider.js";
 import { buildAdView } from "./ads-list-view.js";
+import { pubSub } from "../pub-sub/pubSub.js";
 
 export class AdsListController {
     constructor(nodeElement){
@@ -14,7 +15,8 @@ export class AdsListController {
             ads = await getAds();
             // console.log(ads);
         } catch (error) {
-            console.log('Ha habido un error');
+            // console.log('Ha habido un error');
+            pubSub.publish(pubSub.TOPICS.NOTIFICATION_ERROR, 'Error cargando anuncios');
         }
 
         this.drawAds(ads);
@@ -29,6 +31,5 @@ export class AdsListController {
             this.adsContainerElement.appendChild(articleElement);
         }
     }
-    
 }
 

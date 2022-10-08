@@ -14,3 +14,15 @@ export const buildAdView = (ad) => {
 
     return adView;
 }
+
+export const buildAdsSpinner = () => {
+    return `
+        <div class="lds-roller spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    `;
+}
+
+export const buildEmptyAdsList = () => {
+    return `
+        <h2>No hay ningún anuncio disponible.</h2>
+    `;
+}

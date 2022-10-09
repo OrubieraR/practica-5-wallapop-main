@@ -27,6 +27,21 @@ class SparrestApi {
 
 
     // Creación del método delete para borrar datos en el servidor
+    async delete(endpoint) {
+        const token = localStorage.getItem('token')
+        const response = await fetch(`${this.baseUrl}${endpoint}`, {
+          method: 'DELETE',
+          headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${token}`
+          }
+        })
+    
+        const data = await response.json()
+    
+        return data;
+      }
+
 }
 
 export const sparrestApi = new SparrestApi();

@@ -9,20 +9,11 @@ export const buildAdView = (ad) => {
             <img src="${ad.image}" alt="Imagen de ${ad.name}">
         </div>
         <p>En venta: ${ad.sale}</p>
+        
+        <a type="button" href="http://localhost:5500/adDetail.html?id=${ad.id}">Ver anuncio completo</a>
+
         <br>
     `;
 
     return adView;
-}
-
-export const buildAdsSpinner = () => {
-    return `
-        <div class="lds-roller spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
-    `;
-}
-
-export const buildEmptyAdsList = () => {
-    return `
-        <h2>No hay ningún anuncio disponible.</h2>
-    `;
 }

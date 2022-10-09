@@ -1,6 +1,8 @@
 import { getAds } from "./ads-list-provider.js";
-import { buildAdView, buildAdsSpinner, buildEmptyAdsList } from "./ads-list-view.js";
+import { buildAdView } from "./ads-list-view.js";
 import { pubSub } from "../pub-sub/pubSub.js";
+import { buildAdsSpinner } from "../spinner/spinner.js";
+import { buildEmptyAdsList } from "../emptyAds.js/emptyAds.js";
 
 export class AdsListController {
     constructor(nodeElement){
@@ -32,7 +34,7 @@ export class AdsListController {
 
     showNoAvailableAds(){
         const divLayer = document.createElement('div');
-        divLayer.innerHTML = buildEmptyAdsList();
+        divLayer.innerHTML = buildEmptyAdsList('No hay ningún anuncio disponible.');
         this.adsContainerElement.appendChild(divLayer);
     }
 

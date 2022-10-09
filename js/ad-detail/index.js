@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
     const params = new URLSearchParams(location.search);
     const adId = params.get('id');
+    // console.log(adId);
 
     const adDetailController = new AdDetailController(adDetailContainerElement);
     adDetailController.drawAdDetail(adId);

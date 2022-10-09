@@ -52,8 +52,8 @@ export class SignupController {
         const password = formData.get('password');
     
         try {
-          await createApiUser(username, password)
-          const jwt = await loginApiUser(username, password)
+          await createApiUser(username, password);
+          const jwt = await loginApiUser(username, password);
           localStorage.setItem('token', jwt)
         } catch (error) {
           // la creación de usuario ha fallado

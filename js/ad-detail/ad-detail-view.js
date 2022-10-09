@@ -1,10 +1,18 @@
-export const buildAdDetail = (tweet) => {
+export const buildAdDetail = (ad) => {
   
-    // const updatedAt = new Date(tweet.updatedAt);
+    // const updatedAt = new Date(ad.updatedAt);
     return `
-      <p>${ad.user.username}</p>
-      <p>${ad.content}</p>
-      <!--p>${updatedAt.toLocaleDateString()}</p-->
-      <button style="display: none">Borrar Tweet</button>
-    `
+    <p>${ad.name}</p>
+    <p>${ad.description}</p>
+    <p>${ad.price} €</p>
+    <div>
+        <img src="${ad.image}" alt="Imagen de ${ad.name}">
+    </div>
+    <p>En venta: ${ad.sale}</p>
+      
+    <button style="display: none">Borrar Anuncio</button>
+    `;
+    // return `
+    //   <p>${JSON.stringify(ad)}</p>
+    // `;
   }

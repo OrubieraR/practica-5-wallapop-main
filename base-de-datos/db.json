@@ -1,0 +1,301 @@
+{
+  "users": [
+    {
+      "username": "dddd",
+      "password": "$2b$10$cfkP1Zm1lIvkuG72L5iL7ewftlCuKQvouWsPFJpfpQJgAwEH/PW82",
+      "id": 1
+    },
+    {
+      "username": "octavio",
+      "password": "$2b$10$cfkP1Zm1lIvkuG72L5iL7ewftlCuKQvouWsPFJpfpQJgAwEH/PW82",
+      "id": 2
+    },
+    {
+      "username": "octavio2",
+      "password": "$2b$10$cfkP1Zm1lIvkuG72L5iL7eHPvj.dv/531OMEaETYt./vuSMkmeVoy",
+      "id": 3
+    },
+    {
+      "username": "octavio3",
+      "password": "$2b$10$cfkP1Zm1lIvkuG72L5iL7ez51WBeHMO5hTQ70ft9y5bzOLeW5JpVe",
+      "id": 4
+    },
+    {
+      "username": "octavio4",
+      "password": "$2b$10$cfkP1Zm1lIvkuG72L5iL7ewftlCuKQvouWsPFJpfpQJgAwEH/PW82",
+      "id": 5
+    },
+    {
+      "username": "aaa",
+      "password": "$2b$10$OEbeQxT1rbBZ0JmRNsMgkO5vZP1GH/tOZoAe7fZJgPfXJfquzrT4G",
+      "id": 6
+    },
+    {
+      "username": "admin",
+      "password": "$2b$10$OEbeQxT1rbBZ0JmRNsMgkO5vZP1GH/tOZoAe7fZJgPfXJfquzrT4G",
+      "id": 7
+    },
+    {
+      "username": "admin2",
+      "password": "$2b$10$EH1vAtpfgT19HO3xFluDmOw1cVHfC4X7brQ07H/84kKgJD3wq/qeq",
+      "id": 8
+    },
+    {
+      "username": "admin3",
+      "password": "$2b$10$EH1vAtpfgT19HO3xFluDmOw1cVHfC4X7brQ07H/84kKgJD3wq/qeq",
+      "id": 9
+    },
+    {
+      "username": "user1",
+      "password": "$2b$10$EH1vAtpfgT19HO3xFluDmOLuec3BuKJM0PD55i2FwuGNcl24s1T3y",
+      "id": 10
+    },
+    {
+      "username": "admin5",
+      "password": "$2b$10$vkOrltmusjsNzMvbduhGGeIYIrQCQmQYgupBsKWZFDAY1FNgx9uqK",
+      "id": 11
+    },
+    {
+      "username": "admin6",
+      "password": "$2b$10$Q6uCaKCOxEUG9zpySY.paeEP4SZmF5PxjbxrHKkAp/EihcLEoSDeO",
+      "id": 12
+    }
+  ],
+  "ads": [
+    {
+      "id": 1,
+      "name": "Bicicleta",
+      "description": "Una bicicleta muy buena.",
+      "sale": true,
+      "price": 250,
+      "photo": "https://static.vecteezy.com/system/resources/previews/007/634/524/original/camera-logo-icon-design-template-free-vector.jpg",
+      "tags": [
+        "lifestyle",
+        "motor"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Iphone 12",
+      "description": "Un Iphone nuevo.",
+      "sale": false,
+      "price": 50,
+      "photo": "https://static.vecteezy.com/system/resources/previews/007/634/524/original/camera-logo-icon-design-template-free-vector.jpg",
+      "tags": [
+        "lifestyle",
+        "mobile"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Portatil 15 pulgadas",
+      "description": "Un portatil para gamers.",
+      "sale": true,
+      "price": 530,
+      "photo": "https://static.vecteezy.com/system/resources/previews/007/634/524/original/camera-logo-icon-design-template-free-vector.jpg",
+      "tags": [
+        "lifestyle",
+        "work"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Coche de segunda mano",
+      "description": "Un coche de segunda mano.",
+      "sale": false,
+      "price": 5300,
+      "photo": "https://static.vecteezy.com/system/resources/previews/007/634/524/original/camera-logo-icon-design-template-free-vector.jpg",
+      "tags": [
+        "lifestyle",
+        "motor"
+      ]
+    },
+    {
+      "content": null,
+      "userId": 12,
+      "updatedAt": "2022-10-09T19:13:23.096Z",
+      "id": 5
+    },
+    {
+      "content": null,
+      "userId": 12,
+      "updatedAt": "2022-10-09T19:14:36.145Z",
+      "id": 6
+    },
+    {
+      "content": null,
+      "userId": 12,
+      "updatedAt": "2022-10-09T19:16:32.260Z",
+      "id": 7
+    },
+    {
+      "content": "prueba3",
+      "userId": 12,
+      "updatedAt": "2022-10-09T19:18:13.605Z",
+      "id": 8
+    },
+    {
+      "content": [
+        ""
+      ],
+      "userId": 12,
+      "updatedAt": "2022-10-09T19:40:08.165Z",
+      "id": 9
+    },
+    {
+      "content": [
+        ""
+      ],
+      "userId": 12,
+      "updatedAt": "2022-10-09T19:40:59.408Z",
+      "id": 10
+    },
+    {
+      "content": [
+        ""
+      ],
+      "userId": 12,
+      "updatedAt": "2022-10-09T19:40:59.508Z",
+      "id": 11
+    },
+    {
+      "content": [
+        ""
+      ],
+      "userId": 12,
+      "updatedAt": "2022-10-09T19:41:19.197Z",
+      "id": 12
+    },
+    {
+      "name": "nombre",
+      "price": "precio",
+      "description": "descripcion",
+      "userId": 12,
+      "updatedAt": "2022-10-09T19:48:19.621Z",
+      "id": 13
+    },
+    {
+      "name": "nombre",
+      "price": "precio",
+      "description": "descripcion",
+      "userId": 12,
+      "updatedAt": "2022-10-09T19:49:05.300Z",
+      "id": 14
+    },
+    {
+      "price": "precio",
+      "description": "descripcion",
+      "userId": 12,
+      "updatedAt": "2022-10-09T19:50:05.926Z",
+      "id": 15
+    },
+    {
+      "price": "precio",
+      "description": "descripcion",
+      "userId": 12,
+      "updatedAt": "2022-10-09T20:09:01.220Z",
+      "id": 16
+    },
+    {
+      "price": "precio",
+      "description": "descripcion",
+      "userId": 12,
+      "updatedAt": "2022-10-09T20:09:24.236Z",
+      "id": 17
+    },
+    {
+      "price": "precio",
+      "description": "descripcion",
+      "userId": 12,
+      "updatedAt": "2022-10-09T20:09:39.340Z",
+      "id": 18
+    },
+    {
+      "price": "precio",
+      "description": "descripcion",
+      "userId": 12,
+      "updatedAt": "2022-10-09T20:10:07.229Z",
+      "id": 19
+    },
+    {
+      "price": "precio",
+      "description": "descripcion",
+      "userId": 12,
+      "updatedAt": "2022-10-09T20:11:11.527Z",
+      "id": 20
+    },
+    {
+      "price": "precio",
+      "description": "descripcion",
+      "userId": 12,
+      "updatedAt": "2022-10-09T20:11:24.120Z",
+      "id": 21
+    },
+    {
+      "price": "precio",
+      "description": "descripcion",
+      "userId": 12,
+      "updatedAt": "2022-10-09T20:20:34.142Z",
+      "id": 22
+    },
+    {
+      "price": "precio",
+      "description": "descripcion",
+      "userId": 12,
+      "updatedAt": "2022-10-09T20:21:31.167Z",
+      "id": 23
+    },
+    {
+      "ad": {
+        "name": "prueba33",
+        "price": "3434",
+        "description": "sdlkfjasdlfkj",
+        "compvent": "venta",
+        "photo": "asdfasdfasdf"
+      },
+      "userId": 12,
+      "updatedAt": "2022-10-09T21:34:09.136Z",
+      "id": 24
+    },
+    {
+      "ad": {
+        "name": "prueba34",
+        "price": "000",
+        "description": "prueba34",
+        "compvent": "venta",
+        "photo": "asdfadsfds"
+      },
+      "userId": 12,
+      "updatedAt": "2022-10-09T21:37:45.683Z",
+      "id": 25
+    },
+    {
+      "ad": {
+        "name": "prueba34",
+        "price": "000",
+        "description": "prueba34",
+        "compvent": "venta",
+        "photo": "asdfadsfds"
+      },
+      "userId": 12,
+      "updatedAt": "2022-10-09T21:43:46.258Z",
+      "id": 26
+    },
+    {
+      "name": "5555",
+      "description": "55555",
+      "userId": 12,
+      "updatedAt": "2022-10-09T21:45:31.924Z",
+      "id": 27
+    },
+    {
+      "name": "6666",
+      "price": "6666",
+      "description": "6666",
+      "photo": "66666",
+      "userId": 12,
+      "updatedAt": "2022-10-09T21:47:09.040Z",
+      "id": 28
+    }
+  ]
+}

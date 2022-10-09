@@ -24,6 +24,21 @@ class SparrestApi {
     }
 
     // Creación del método post para crear datos en el servidor
+    async post(endpoint, body) {
+      const token = localStorage.getItem('token')
+      const response = await fetch(`${this.baseUrl}${endpoint}`, {
+        method: 'POST',
+        body: JSON.stringify(body),
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${token}`
+        }
+      })
+  
+      const data = await response.json()
+  
+      return data;
+    }
 
 
     // Creación del método delete para borrar datos en el servidor

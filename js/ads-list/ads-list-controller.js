@@ -1,6 +1,6 @@
+import { pubSub } from "../pub-sub/pubSub.js";
 import { getAds } from "./ads-list-provider.js";
 import { buildAdView } from "./ads-list-view.js";
-import { pubSub } from "../pub-sub/pubSub.js";
 import { buildAdsSpinner } from "../spinner/spinner.js";
 import { buildEmptyAdsList } from "../emptyAds.js/emptyAds.js";
 

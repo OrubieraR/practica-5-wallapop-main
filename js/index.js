@@ -1,5 +1,5 @@
-import { AdsListController } from "./ads-list/ads-list-controller.js";
 import { NotificationController } from "./notifications/notificationController.js";
+import { AdsListController } from "./ads-list/ads-list-controller.js";
 
 
 
@@ -17,6 +17,18 @@ document.addEventListener('DOMContentLoaded', ()=>{
         const notificationController = new NotificationController(notificationElement);
     }
 
+    const handleUserLogged = () => {
+        const token = localStorage.getItem('token');
+        const userActions = document.querySelector('#user-actions');
+        // console.log(userActions);
+        if (token) {
+          userActions.innerHTML = '<a href="/createAd.html">Crear anuncio</a>'
+        } else {
+          userActions.innerHTML = '<a href="/signup.html">Inicia sesión</a>'
+        }
+      }
+
 
     createControllers();
+    handleUserLogged();
 });

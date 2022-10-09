@@ -6,7 +6,7 @@ export const buildAdDetail = (ad) => {
     <p>${ad.description}</p>
     <p>${ad.price} €</p>
     <div>
-        <img src="${ad.image}" alt="Imagen de ${ad.name}">
+        <img width="300" height="300" src="${ad.photo}" alt="Imagen de ${ad.name}">
     </div>
     <p>En venta: ${ad.sale}</p>
       

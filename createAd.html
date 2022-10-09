@@ -11,8 +11,35 @@
   <section class="notification-container"></section>
   <form id="create-ad-form" novalidate>
     <label for="ad-creation">¿Qué anuncio quieres publicar?</label>
-    <textarea name="ad" id="ad-creation" cols="30" rows="10"></textarea>
+    <br><br>
+    
+    <label for="name">Nombre</label>
+    <br>
+    <input type="text" name="name" required="required">
+    <br><br>
 
+    <label for="price">Precio</label>
+    <br>
+    <input type="text" name="price" required="required">
+    <br><br>
+
+    <label for="description">Descripcion</label>
+    <br>
+    <textarea name="description" id="ad-creation" cols="30" rows="10" required></textarea>
+    <br><br>
+
+    <label for="sale">Quiero comprarlo</label>
+    <input type="radio" id="compra" value="compra" name="sale" required="required">
+
+    <label for="sale" required="required">Quiero venderlo</label>
+    <input type="radio" id="venta" value="venta" name="compvent" required="required">
+    
+    
+    <br><br>
+    <label for="photo">Pega la URL de tu foto:</label>
+    <input type="url" name="photo">
+
+    <br><br>
     <button class="create-ad-button">Crear anuncio</button>
   </form>
 

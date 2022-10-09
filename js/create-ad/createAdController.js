@@ -20,7 +20,27 @@ export class CreateAdController {
 
   createAd() {
     const formData = new FormData(this.createAdElement);
-    const ad = formData.get('ad');
+    // const ad = formData.get({});
+    let adString = '{';
+    let contador;
+    
+    for (const pair of formData.entries()) {
+      contador++;
+      
+      console.log(`${pair[0]}, ${pair[1]},`);
+      // ad.pair[0] = pair[1];
+      adString += `"${pair[0]}": "${pair[1]}",`;
+    }
+
+    
+    
+    let lastIndex = adString.lastIndexOf(',');
+    console.log(lastIndex);
+    let ad = adString.slice(0,lastIndex);
+    ad += '}';
+    console.log(ad);
+    ad = JSON.parse(ad);
+    console.log(typeof ad);
     createApiAd(ad);
   }
 }
